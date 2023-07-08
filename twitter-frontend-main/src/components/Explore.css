@@ -1,0 +1,26 @@
+.explore {
+  background: inherit;
+  top: 0;
+  position: fixed;
+  right: 0;
+  padding-top: 10px;
+  width: 30%;
+  height: 100%;
+  border-left:1px solid gray ;
+}
+
+
+@media screen and (max-width: 1300px) {
+  .explore {
+    width: 20%;
+  }
+  .searchContainer {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .explore {
+    display: none;
+  }
+}

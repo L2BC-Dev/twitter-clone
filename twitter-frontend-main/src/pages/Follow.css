@@ -1,0 +1,12 @@
+.topBar {
+  padding: 10px;
+  display: flex;
+}
+
+.back {
+  padding: 10px;
+}
+
+.fullName {
+  font-size: 20px;
+}

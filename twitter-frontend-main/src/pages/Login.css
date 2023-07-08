@@ -1,0 +1,52 @@
+.login {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#title {
+  font-size: 3%;
+  font-family: "Segoe UI Semibold", serif;
+}
+
+#input {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding: 5vh;
+  justify-content: space-evenly;
+}
+
+#container {
+  padding: 5%;
+}
+
+.loginCredentials {
+  height: 30px;
+  background: inherit;
+  color: white;
+  font-size: 20px;
+  border: none;
+  width: 100%;
+  border-bottom: 1px solid white;
+}
+
+.button {
+  height: 6vh;
+  width: 80%;
+  font-size: 20px;
+  background: #1DA1F2;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+#signUp {
+  color: #1DA1F2;
+  text-decoration: none;
+}
